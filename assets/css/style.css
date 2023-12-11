@@ -889,15 +889,31 @@ section {
 }
 
 .gallery #gallery-flters li {
+  align-items: center;
   cursor: pointer;
   display: inline-block;
-  margin: 0 0 10px 10px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
+  margin: 0 0 0px 0px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 0;
   text-transform: uppercase;
   color: #444444;
   transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 394px) {
+  .gallery #gallery-flters li {
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0 0px 0px;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 0;
+    text-transform: uppercase;
+    color: #444444;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 .gallery #gallery-flters li::before {
@@ -978,7 +994,7 @@ section {
 
 .gallery .gallery-item .gallery-info .preview-link:hover,
 .gallery .gallery-item .gallery-info .details-link:hover {
-  color: #fd9f5b;
+  color: #5beafd;
 }
 
 .gallery .gallery-item .gallery-info .details-link {
