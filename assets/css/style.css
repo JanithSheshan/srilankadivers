@@ -494,7 +494,7 @@ h6 {
   text-decoration: none;
 }
 
-#navbar .btn-get-started {
+#header .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -510,7 +510,7 @@ h6 {
   border: 2px solid #4682B4;
 }
 
-#navbar .btn-get-started:hover {
+#header .btn-get-started:hover {
   background: #4682B4;
   color: #fff;
   text-decoration: none;
