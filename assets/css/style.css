@@ -798,8 +798,16 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
+/* .cta {
+  background: #0022ff;
+  padding: 80px 0;
+} */
+
 .cta {
-  background: #2a2c39;
+  background-image: url('../img/cover.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
   padding: 80px 0;
 }
 
