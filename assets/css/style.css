@@ -1,4 +1,27 @@
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #000000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 203, 255); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #95d8dd; 
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #000000;
@@ -987,6 +1010,12 @@ section {
 
 .gallery .gallery-item {
   margin-bottom: 30px;
+}
+
+.gallery-scroll {
+  max-height: 900px; /* Adjust the height as needed */
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .gallery .gallery-item .gallery-img {
