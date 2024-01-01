@@ -2,12 +2,12 @@
 //get data from form  
 $name = $_POST['name'];
 $email= $_POST['email'];
-$subject= $_POST['subject'];
+$subjectnew= $_POST['subjectnew'];
 $message= $_POST['message'];
-$to = "jasheshan011@gmail.com";
-$subject = "Mail From website :".$subject;
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
-$headers = "From: noreply@srilankadivers.com";
+$to = "info@srilankadivers.com";
+$subject = "Mail From website :";
+$txt ="Name : ". $name . "\n\n  Email : " . $email . "\n\n Subject : " . $subjectnew . "\n\n Message : \n" . $message;
+$headers = "From: noreply srilankadivers.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
